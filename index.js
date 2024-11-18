@@ -23,6 +23,8 @@ const handleDigitClick = (e) => {
       displeyElement.textContent = "";
     }
     displeyElement.textContent += number;
+  } else {
+    return;
   }
 };
 
